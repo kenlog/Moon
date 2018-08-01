@@ -160,7 +160,7 @@ table.table-striped tr:nth-child(odd) {
 
 table th {
     text-align: left;
-    padding: 0.5em 7px;
+    padding: 0.5em 5px;
     border: 1px solid #eee;
     background: #fafbfc;
 }

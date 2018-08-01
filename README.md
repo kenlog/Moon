@@ -3,9 +3,11 @@
 This theme allows you to add special features like replacing the logo and adds syntax highlighting for Markdown code.
 
 # Screenshot
-![board](https://user-images.githubusercontent.com/11728231/43379466-e347c34e-93cc-11e8-90c7-bb13a5738834.png)
-![task1](https://user-images.githubusercontent.com/11728231/43379467-e4b4d622-93cc-11e8-81e4-90f63b4fdba8.png)
-![task2](https://user-images.githubusercontent.com/11728231/43379470-e6880ec4-93cc-11e8-850c-37ae838a5ba7.png)
+![dashboard](https://user-images.githubusercontent.com/11728231/43528768-086359ca-95aa-11e8-99d6-e2315400a3ab.png)
+![board](https://user-images.githubusercontent.com/11728231/43528782-135aa9c8-95aa-11e8-8819-c9f05c8dd397.png)
+![task1](https://user-images.githubusercontent.com/11728231/43528785-14f3b54a-95aa-11e8-9b7f-8e8b75c5eb73.png)
+![task2](https://user-images.githubusercontent.com/11728231/43528786-16500646-95aa-11e8-9896-3fc1a3704153.png)
+![task3](https://user-images.githubusercontent.com/11728231/43528795-17b2c88e-95aa-11e8-8f76-d1f723b036ad.png)
 
 Author
 ------------
