@@ -19,6 +19,7 @@ class Plugin extends Base
         if (isset($themeMoonConfig['logo'])) 
         {
             $this->template->setTemplateOverride('header/title', 'Moon:layout/header/title');
+            $this->template->setTemplateOverride('header', 'Moon:header');
         }
 		
         $this->hook->on("template:layout:css", array("template" => "plugins/Moon/Assets/css/moon.css"));
@@ -47,7 +48,7 @@ class Plugin extends Base
 
     public function getPluginVersion()
     {
-        return '1.0.0';
+        return '1.1.0';
     }
 
     public function getCompatibleVersion()

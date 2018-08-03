@@ -5,7 +5,11 @@
     <?php else: ?>
         <?= $this->url->link('<img src="'.$this->url->dir().'plugins/Moon/Assets/images/'.$themeMoonConfig['logo'].'" />', 'DashboardController', 'show', array(), false, '', t('Dashboard')) ?>
     <?php endif ?>
+    <?php if (!isset($themeMoonConfig['HeadingTitleColor'])) : ?>
     <h2>
+    <?php else: ?>
+    <h2 style="color:<?= $themeMoonConfig['HeadingTitleColor'] ?>">
+    <?php endif ?>
         <?php if (! empty($project) && ! empty($task)): ?>
             <?= $this->url->link($this->text->e($project['name']), 'BoardViewController', 'show', array('project_id' => $project['id'])) ?>
         <?php else: ?>
