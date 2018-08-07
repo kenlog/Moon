@@ -1373,7 +1373,7 @@ ul.dropdown-submenu-open {
 
 .dropdown-submenu-open li:not(.no-hover):hover {
     background: #f6f8fa;
-    color: #fff
+    color: #8d9498
 }
 
 .dropdown-submenu-open li:hover a {
