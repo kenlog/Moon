@@ -20,6 +20,7 @@ class Plugin extends Base
         {
             $this->template->setTemplateOverride('header/title', 'Moon:layout/header/title');
             $this->template->setTemplateOverride('header', 'Moon:header');
+            $this->template->setTemplateOverride('layout', 'Moon:layout');
         }
 		
         $this->hook->on("template:layout:css", array("template" => "plugins/Moon/Assets/css/moon.css"));
@@ -29,6 +30,8 @@ class Plugin extends Base
         $this->hook->on('template:layout:js', array('template' => 'plugins/Moon/Assets/js/clipboard.min.js'));
 
         $this->hook->on('template:layout:js', array('template' => 'plugins/Moon/Assets/js/prism.js'));
+    
+        $this->hook->on('template:layout:js', array('template' => 'plugins/Moon/Assets/js/moon.js'));
     }
 
     public function getPluginName()
@@ -48,7 +51,7 @@ class Plugin extends Base
 
     public function getPluginVersion()
     {
-        return '1.1.0';
+        return '1.2.0';
     }
 
     public function getCompatibleVersion()
