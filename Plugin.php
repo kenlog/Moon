@@ -15,8 +15,14 @@ class Plugin extends Base
         {
             require_once('plugins/Moon/config.php');
         }
-
-        if (isset($themeMoonConfig['logo'])) 
+		
+		if (file_exists('plugins/Customizer'))
+        {
+            $this->template->setTemplateOverride('header/title', 'Moon:layout/header/customizerTitle');
+            $this->template->setTemplateOverride('header', 'Moon:header');
+            $this->template->setTemplateOverride('layout', 'Moon:layout');
+        } 
+			elseif (isset($themeMoonConfig['logo'])) 
         {
             $this->template->setTemplateOverride('header/title', 'Moon:layout/header/title');
             $this->template->setTemplateOverride('header', 'Moon:header');
