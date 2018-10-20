@@ -25,7 +25,7 @@
 
         <?= $this->hook->asset('css', 'template:layout:css') ?>
         <?= $this->hook->asset('js', 'template:layout:js') ?>
-        <?php if (file_exists('plugins/Customizer')) : ?>
+        <?php if (file_exists('plugins/Customizer') && null !== $this->task->customizerFileModel->getByType(2)) : ?>
         <link rel="icon" type="image/png" href="<?= $this->url->href('CustomizerFileController', 'image', array('plugin' => 'customizer', 'file_id' => $this->task->customizerFileModel->getIdByType(2))) ?>">
         <link rel="apple-touch-icon" href="<?= $this->url->href('CustomizerFileController', 'image', array('plugin' => 'customizer', 'file_id' => $this->task->customizerFileModel->getIdByType(2))) ?>">
         <link rel="apple-touch-icon" sizes="72x72" href="<?= $this->url->href('CustomizerFileController', 'image', array('plugin' => 'customizer', 'file_id' => $this->task->customizerFileModel->getIdByType(2))) ?>">
