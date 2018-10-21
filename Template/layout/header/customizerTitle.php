@@ -1,3 +1,4 @@
+<?php global $themeMoonConfig; ?>
 <div class="header">
 		<?php if (null !== $this->task->customizerFileModel->getByType(1)) : ?>
             <a href="<?= $this->url->href('DashboardController', 'show', array(), false, '', t('Dashboard')) ?>">
