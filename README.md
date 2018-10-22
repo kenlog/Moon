@@ -2,7 +2,7 @@
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/kenlog/Moon/graphs/contributors)
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)]()
 
-# Moon plugin for Kanboard
+# Moon plugin (modern theme for kanboard)
 
 This theme allows you to add special features like replacing the logo and adds syntax highlighting for Markdown code.
 
