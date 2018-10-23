@@ -9,6 +9,6 @@
 
 $themeMoonConfig['logo'] = 'brand-logo.png';
 
-$themeMoonConfig['backgroundColorHeader'] = '#212427';
+$themeMoonConfig['backgroundColorHeader'] = '#364046';
 
 $themeMoonConfig['HeadingTitleColor'] = '#eee';
