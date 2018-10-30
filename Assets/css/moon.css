@@ -1649,7 +1649,7 @@ header {
     border-bottom: 0px solid #dedede;
     padding: 15px 10px;
     margin-bottom: 15px;
-    background: #24292e;
+    background: #364046;
 }
 
 header .title-container {
@@ -1695,7 +1695,8 @@ header .menus-container {
 }
 
 header h1 {
-    font-size: 1.5em
+    font-size: 1.5em;
+    color: #eee;
 }
 
 header h1 .tooltip {
