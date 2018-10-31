@@ -61,12 +61,15 @@ class BaseClass {
 }
 +```
 ```
-Contributing or modifying the theme
+
+### :star: If you like , do not forget to give me a star on GitHub! 
+
+:construction_worker: Any contribution will be highly appreciated
 ------------
 Clone the repository: 
 ```console 
 git clone https://github.com/kenlog/Moon.git
 ```
-Reporting Issues
+:bug: Reporting Issues
 ------------
 Please [create an issue](https://github.com/kenlog/Moon/issues) for any bugs you've found.
