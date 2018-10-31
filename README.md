@@ -62,7 +62,7 @@ class BaseClass {
 +```
 ```
 
-### :star: If you like , do not forget to give me a star on GitHub! 
+### :star: If you like it, do not forget to give a star on GitHub!
 
 :construction_worker: Any contribution will be highly appreciated
 ------------
