@@ -39,7 +39,7 @@ Add options for the theme
 ------------
 - Replace the KB logo with your own logo  
 For more information have a look in the config.php  
-### Supports loading the logo using the [Customizer](https://github.com/creecros/Customizer) plugin
+### Supports the [Customizer](https://github.com/creecros/Customizer) plugin
 
 Syntax highlighting for Markdown code
 ------------
