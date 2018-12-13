@@ -1,5 +1,4 @@
 theme: jekyll-theme-cayman
 title: Kanboard plugin theme
-show_downloads: true
 plugins:
   - jemoji
