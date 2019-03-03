@@ -2979,7 +2979,7 @@ span.task-date-overdue {
     border: 1px solid #ddd;
     overflow: auto;
     overflow-wrap: initial;
-    color: #555
+    color: #f5f5f5
 }
 
 .markdown blockquote {
