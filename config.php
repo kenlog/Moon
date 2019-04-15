@@ -4,10 +4,10 @@
 /*******************************************************************/
 
 // Change the logo or color to the title and heading
-// Just copy your logo-file in the "Moon/Assets/images" directory in the plugin directory
+// Just copy your logo-file in the "data/files/Moon/" directory in the plugin directory
 // The file should be to 50 Pixel is a good height
 
-$themeMoonConfig['logo'] = 'brand-logo.png';
+$themeMoonConfig['logo'] = 'data/files/Moon/Assets/images/brand-logo.png';
 
 $themeMoonConfig['backgroundColorHeader'] = '#364046';
 

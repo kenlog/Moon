@@ -3,7 +3,7 @@
         <?php if (!isset($themeMoonConfig['logo'])) : ?>
             <?= $this->url->link('K<span>B</span>', 'DashboardController', 'show', array(), false, '', t('Dashboard')) ?>
         <?php else: ?>
-            <?= $this->url->link('<img src="'.$this->url->dir().'plugins/Moon/Assets/images/'.$themeMoonConfig['logo'].'" style="float: left;max-height: 40px;margin-top: -7px;margin-right: 10px;" />', 'DashboardController', 'show', array(), false, '', t('Dashboard')) ?>
+            <?= $this->url->link('<img src="'.$themeMoonConfig['logo'].'" style="float: left;max-height: 40px;margin-top: -7px;margin-right: 10px;" />', 'DashboardController', 'show', array(), false, '', t('Dashboard')) ?>
         <?php endif ?>
     </span>
     <?php if (!isset($themeMoonConfig['HeadingTitleColor'])) : ?>
