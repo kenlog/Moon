@@ -11,9 +11,13 @@ class Plugin extends Base
     {
         global $themeMoonConfig;
 
-        if (file_exists('plugins/Moon/config.php')) 
+        if (file_exists(DATA_DIR . '/files/Moon/config.php')) 
         {
-            require_once('plugins/Moon/config.php');
+            require_once(DATA_DIR . '/files/Moon/config.php');
+        } else { 
+            mkdir(DATA_DIR . '/files/Moon/Assets/images', 0755, true); 
+            copy('plugins/Moon/config.php', DATA_DIR . '/files/Moon/config.php');
+            copy('plugins/Moon/Assets/images/brand-logo.png', DATA_DIR . '/files/Moon/Assets/images/brand-logo.png');
         }
 		
 		if (file_exists('plugins/Customizer'))
@@ -57,7 +61,7 @@ class Plugin extends Base
 
     public function getPluginVersion()
     {
-        return '1.3.7';
+        return '1.4.0';
     }
 
     public function getCompatibleVersion()
