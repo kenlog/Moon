@@ -22,7 +22,7 @@ Author
 
 Requirements
 ------------
-Kanboard >= v1.2.5  
+Kanboard >= v1.0.48  
 Kanboard installed at a web server.
 You can find the download at [kanboard.org](https://kanboard.org/)
 
