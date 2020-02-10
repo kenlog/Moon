@@ -1507,6 +1507,7 @@ td a.dropdown-menu:hover i {
     border-radius: 3px;
     background-color: #fff;
     max-width: 300px;
+    width: auto;
 }
 
 .select-dropdown-input-container input.select-dropdown-input {
