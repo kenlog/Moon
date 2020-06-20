@@ -1380,6 +1380,10 @@ ul.dropdown-submenu-open {
     color: #262626
 }
 
+.dropdown-submenu-open li:hover i {
+	color: #333
+}
+
 .dropdown-submenu-open a {
     text-decoration: none;
     color: #333
