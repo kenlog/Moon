@@ -1,7 +1,6 @@
 ## Checkout our latest project
-[![](https://raw.githubusercontent.com/docpht/docpht/master/public/assets/img/logo.png)](https://github.com/docpht/docpht)
 
-- With [DocPHT](https://github.com/docpht/docpht) you can take notes and quickly document anything and without the use of any database.
+- [Global Search Plugin for Kanboard](https://github.com/kenlog/global-search-kanboard.git) 
 -----------
 
 [![Latest release](https://img.shields.io/github/release/kenlog/Moon.svg)](https://github.com/kenlog/Moon/releases)
